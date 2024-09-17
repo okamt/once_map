@@ -25,7 +25,7 @@ rayon = ["dep:rayon", "hashbrown/rayon", "std"]
 [dependencies]
 ahash = { version = "0.8", default-features = false, optional = true }
 hashbrown = { version = "0.14.2", default-features = false }
-stable_deref_trait = { version = "1.2", features = ["alloc"], default-features = false }
+stable_deref_trait = { git = "https://github.com/Storyyeller/stable_deref_trait", rev = "59a35e0a40041133c6b8744f2b62f922e7d18d5b", features = ["alloc"], default-features = false }
 
 equivalent = { version = "1.0", optional = true }
 
